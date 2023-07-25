@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+.home-container {
+  text-align: center;
+}
+
+.home-title {
+  font-size: 32px;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.home-links {
+  display: flex;
+  justify-content: center;
+}
+
+.home-links li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.home-links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.home-links a:hover {
+  text-decoration: underline;
+}
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.navbar{
+  text-align: center;
+}
+.link-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+ 
+  padding: 0;
+}
+
+.link-list li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.link-list a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link-list a:hover {
+  text-decoration: underline;
+}
+.income-container {
+  background-color: #eca5a5;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.income-form {
+  margin-bottom: 20px;
+}
+
+.income-data {
+  margin-top: 20px;
+}
+
+.income-data li {
+  background-color:#67e18d ;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.income-data li:last-child {
+  margin-bottom: 0;
+}
+/* Expense page specific styles */
+.expense-container {
+  background-color: #eca5a5;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.expense-form {
+  margin-bottom: 20px;
+}
+
+.expense-data {
+  margin-top: 20px;
+}
+
+.expense-data li {
+  background-color: #67e18d;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.expense-data li:last-child {
+  margin-bottom: 0;
+}
